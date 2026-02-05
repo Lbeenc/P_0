@@ -2,9 +2,13 @@
 #include <string>
 
 using namespace std;
+
+//static values 
 static int Max_Arg = 2;
 static int Min_Arg = 1;
 static int First_Input = 1;
+
+//error messages
 void printUsage() {
     cerr << "Fatal: Improper usage\n";
     cerr << "Usage: P0 [string]\n";
